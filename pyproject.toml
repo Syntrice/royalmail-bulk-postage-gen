@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "royalmail-bulk-postage-gen"
+version = "0.1.0"
+description = ""
+authors = ["Syntrice <syntrice@protonmail.com>"]
+readme = "README.md"
+packages = [{include = "royalmail_bulk_postage_gen"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
